@@ -49,14 +49,15 @@ function App() {
           <br />
 
           <p className="lg:w-2/3 flex mx-auto leading-relaxed italic text-base">
-            Metal soul is a painting that represents the metal spirit of a
-            warrior facing the volcanic surface, it is a surreal chaos with dark
-            reddened palettes
+            I subscribe to Locia Moon I certify that the work entitled: "METAL
+            SOUL" made in 2021 is an original work. this certificate was issued
+            on 06/21/2022 by Lucia Moon. This certificate attests that the
+            identified work is a first edition of the artist and its guarantee.
           </p>
         </div>
 
         <h1 className="sm:text-4xl  text-2xl italic text-center font-semibold title-font mb-1 text-gray-900">
-          Lucia Moon
+          Lucia Sev Moon
         </h1>
 
         <section className="px-2 py-32 bg-white md:px-0">
@@ -66,7 +67,7 @@ function App() {
                 <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                   <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                     <span className="text-xs text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-1">
-                      Sofia Art
+                      Nov 3, 2021
                     </span>
 
                     <span className="block sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -75,8 +76,13 @@ function App() {
                   </h1>
 
                   <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                    It's never been easier to build beautiful websites that
-                    convey your message and tell your story.
+                    Metal soul is a painting that represents the metal spirit of
+                    a warrior facing the volcanic surface, it is a surreal chaos
+                    with dark reddened palettes
+                  </p>
+
+                  <p className="italic text-gray-500 text-base">
+                    Dimensions 15cm X 15cm
                   </p>
 
                   <div className="relative flex flex-col sm:flex-row sm:space-x-4"></div>
@@ -95,23 +101,23 @@ function App() {
         <div className="flex flex-wrap">
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-              Description
+              Characteristic
             </h2>
 
             <p className="leading-relaxed text-base mb-4">
-              Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-              hexagon disrupt edison bulbche.
+              Year: 2021. <br /> Dimensions: 15cm X 15cm. <br /> Technique:
+              Surrealism. <br /> Author: Lucia Sev Moon.
             </p>
           </div>
 
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-              Year Of This Art
+              Approved Work
             </h2>
 
             <p className="leading-relaxed text-base mb-4">
-              Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-              hexagon disrupt edison bulbche.
+              Duly approved by the salesman and having them right. <br />
+              The guarantee is 100% assured, the quality is as shown.
             </p>
           </div>
 
@@ -120,8 +126,8 @@ function App() {
               Surrealism
             </h2>
             <p className="leading-relaxed text-base mb-4">
-              Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-              hexagon disrupt edison bulbche.
+              Surrealism proposes a theory of the unconscious and the irrational
+              as a means to change life, society, art.
             </p>
           </div>
 
@@ -131,7 +137,7 @@ function App() {
           </div>
         </div>
 
-        <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        <button className="flex  mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
           DOWNLOAD PDF
         </button>
 
@@ -147,6 +153,15 @@ function App() {
         <p className="w-20 overline font-semibold  text-center">Of Artist</p>
         <p className="w-20 overline font-semibold  text-center ">Of L’Arta</p>
       </div>
+
+      <br />
+      <span className="text-center text-xs italic ">
+        <b>IMPRESS: </b> $2b$10$b89RN847X8K5FDo2eyjs/. <br />
+        oLFcXvB Ca3Why22VICdZ5 WbZDsY fCY .$ 2<br />
+        b$10$b89RN 847X8K5FDo2eyjs/ .mTHg5
+        <br />
+        /xpbmb4NeWSjlJpLTgIKe4Rrg6
+      </span>
     </section>
   );
 }
