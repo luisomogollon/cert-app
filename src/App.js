@@ -5,7 +5,7 @@ function App() {
   return (
     <section className="text-gray-600   border-4 border-indigo-500 flex flex-col body-font py-6 p-2  space-y-6">
       <a href="#_" className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
-        <span className="p-1 text-3xl  font-black leading-none text-black select-none">
+        <span className="p-4  text-3xl  font-black leading-none text-black select-none">
           <span> L’Art</span>
           <span className="text-indigo-500">.</span>
         </span>
@@ -16,9 +16,11 @@ function App() {
           <span className=" text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-6">
             L’Art Offical
           </span>
+
           <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
             CERTIFICATE OF AUTHENTICITY
           </h1>
+          
           <p className="lg:w-2/3 mx-auto leading-relaxed italic text-base">
             <b>Digital Folio: #62fc2228990212acf95c883b</b>
           </p>
@@ -41,27 +43,34 @@ function App() {
           <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
             <div className="flex flex-wrap items-center sm:-mx-3">
               <div className="w-full md:w-1/2 md:px-3">
+
                 <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                   <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+
                     <span className="text-xs text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-1">
                       Sofia Art
                     </span>
+
                     <span className="block sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
                       Metal Soul
                     </span>
                   </h1>
+
                   <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
                     It's never been easier to build beautiful websites that
                     convey your message and tell your story.
                   </p>
+
                   <div className="relative flex flex-col sm:flex-row sm:space-x-4"></div>
                 </div>
               </div>
+
               <div className="w-full px-7 py-7 mt-5 md:w-1/2">
                 <div className="w-full h-auto overflow-hidden  ">
                   <img src={imagenes.img5} alt="" />
                 </div>
               </div>
+
             </div>
           </div>
         </section>
