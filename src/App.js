@@ -1,5 +1,6 @@
 import "./App.css";
 import imagenes from "../src/assets/imagenes";
+import { FcSignature } from "react-icons/fc";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
             CERTIFICATE OF AUTHENTICITY
           </h1>
-          
+
           <p className="lg:w-2/3 mx-auto leading-relaxed italic text-base">
             <b>Digital Folio: #62fc2228990212acf95c883b</b>
           </p>
@@ -110,7 +111,6 @@ function App() {
 
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-20 py-6 border-l-2 border-gray-200 border-opacity-60">
             <img src={imagenes.img0} alt="" />
-
             <span className="text-indigo-500 inline-flex items-center"></span>
           </div>
         </div>
@@ -122,14 +122,14 @@ function App() {
         <br />
       </div>
 
-      <div className="flex justify-between  px-20 space- ">
-        <img className="w-20 rounded-full " src={imagenes.img4} alt="" />
-        <img className="w-20  rounded-full" src={imagenes.img4} alt="" />
+      <div className="flex justify-between px-20 space- ">
+        <img className="w-20  " src={imagenes.img2} alt="" />
+        <img className="w-20  " src={imagenes.img4} alt="" />
       </div>
 
       <div className="flex justify-between px-20 space-">
-        <p className="w-20 overline  text-center"> Artist</p>
-        <p className="w-20 overline text-center "> L’Arta</p>
+        <p className="w-20 overline font-semibold  text-center">Of Artist</p>
+        <p className="w-20 overline font-semibold  text-center ">Of L’Arta</p>
       </div>
     </section>
   );
