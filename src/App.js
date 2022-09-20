@@ -5,10 +5,10 @@ import { GiArchitectMask } from "react-icons/gi";
 function App() {
   return (
     <section className="text-gray-600   border-4 border-indigo-500 flex flex-col body-font py-6 p-2  space-y-6">
-      <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <span class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg class="w-16 h-16 text-indigo-400 p-2 " viewBox="0 0 15 15">
+      <header className="text-gray-600 body-font">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <span className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg className="w-16 h-16 text-indigo-400 p-2 " viewBox="0 0 15 15">
               <GiArchitectMask />
             </svg>
 
@@ -51,26 +51,29 @@ function App() {
           Lucia Sev Moon
         </h1>
 
-        <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto flex flex-col">
-            <div class="lg:w-4/6 mx-auto">
-              <div class="">
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto flex flex-col">
+            <div className="lg:w-4/6 mx-auto">
+              <div className="">
                 <img alt="content" class="" src={imagenes.img5} />
               </div>
-              <div class="flex flex-col sm:flex-row mt-10">
-                <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                  <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+
+              <div className="flex flex-col sm:flex-row mt-10">
+                <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                  <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                     <img
                       alt="content"
                       class="object-cover object-center rounded-full h-full w-full"
                       src={imagenes.img1}
                     />
                   </div>
-                  <div class="flex flex-col items-center text-center justify-center">
-                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
+
+                  <div className="flex flex-col items-center text-center justify-center">
+                    <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                       Lucia Sev Moon
                     </h2>
-                    <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                    <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+
                     <p class="text-base">
                       Lucia is an artist who likes to play with dark color
                       palettes and create surreal atmospheres projected from her
@@ -79,8 +82,8 @@ function App() {
                   </div>
                 </div>
 
-                <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                  <p class="leading-relaxed text-lg mb-4">
+                <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                  <p className="leading-relaxed text-lg mb-4">
                     <span className="italic font-semibold">Description:</span>{" "}
                     <br />
                     Moon Ceremony represents a meeting that is held on the moon
@@ -89,6 +92,7 @@ function App() {
                     rituals, this painting was created on Nov 3, 2021.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -132,6 +136,7 @@ function App() {
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
               Surrealism
             </h2>
+
             <p className="leading-relaxed text-base mb-4">
               Surrealism proposes a theory of the unconscious and the irrational
               as a means to change life, society, art.
@@ -147,31 +152,33 @@ function App() {
         <br />
       </div>
 
-      <section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
-        <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
-          <p class="text-xs font-bold text-left text-indigo-900 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
-          Do you need information?.
+      <section className="relative py-16 bg-white min-w-screen animation-fade animation-delay">
+        <div className="container  px-8 mx-auto sm:px-12 xl:px-5">
+          <p className="text-xs font-bold text-left text-indigo-900 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
+            Do you need information?.
           </p>
 
-          <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
-           Titulat Stamp
+          <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
+            <h3 className="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
+              Titulat Stamp
             </h3>
-            <p class="mt-2 text-base italic text-gray-600 sm:text-lg md:text-normal">
+
+            <p className="mt-2 text-base italic text-gray-600 sm:text-lg md:text-normal">
               $2b$10$b89RN847X8K5FDo2eyjs/.oLFcXvBCa3Why22VICdZ5WbZDsYfCY.$2b$10$b89RN
               847X8K5FDo2eyjs/.mTHg5/xpbmb4NeWSjlJpLTgIKe4Rrg6.
             </p>
           </div>
 
-          <div class="w-full px-6 italic py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
-            Authentication Stamp
+          <div className="w-full px-6 italic py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
+            <h3 className="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
+              Authentication Stamp
             </h3>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            $2b$10$b89RN847X8K5FDo2eyjs/.oLFcXvBCa3Why22VICdZ5WbZDsYfCY.$2b$10$b89RN
+            <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+              $2b$10$b89RN847X8K5FDo2eyjs/.oLFcXvBCa3Why22VICdZ5WbZDsYfCY.$2b$10$b89RN
               847X8K5FDo2eyjs/.mTHg5/xpbmb4NeWSjlJpLTgIKe4Rrg6
             </p>
           </div>
+          
         </div>
       </section>
 
