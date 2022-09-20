@@ -3,7 +3,7 @@ import imagenes from "../src/assets/imagenes";
 
 function App() {
   return (
-    <section className="text-gray-600 border-4 border-indigo-400 flex flex-col body-font py-6 p-2  space-y-6">
+    <section className="text-gray-600   border-4 border-indigo-400 flex flex-col body-font py-6 p-2  space-y-6">
       <a href="#_" className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
         <span className="p-1 text-3xl  font-black leading-none text-black select-none">
           <span> L’Art</span>
@@ -13,6 +13,9 @@ function App() {
 
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
+          <span className=" text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-6">
+            L’Art Offical
+          </span>
           <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
             CERTIFICATE OF AUTHENTICITY
           </h1>
@@ -22,7 +25,7 @@ function App() {
 
           <br />
 
-          <p className="lg:w-2/3 mx-auto leading-relaxed italic text-base">
+          <p className="lg:w-2/3 flex mx-auto leading-relaxed italic text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
             haven't heard of them man bun deep jianbing selfies heirloom prism
@@ -30,8 +33,8 @@ function App() {
           </p>
         </div>
 
-        <h1 className="sm:text-4xl text-2xl italic text-center font-semibold title-font mb-1 text-gray-900">
-          Sofia Gray Moon{" "}
+        <h1 className="sm:text-4xl  text-2xl italic text-center font-semibold title-font mb-1 text-gray-900">
+          Sofia Gray Moon
         </h1>
 
         <section className="px-2 py-32 bg-white md:px-0">
@@ -41,7 +44,6 @@ function App() {
                 <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                   <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                     <span className="text-xs text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-1">
-                      {" "}
                       Sofia Art
                     </span>
                     <span className="block sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -105,10 +107,20 @@ function App() {
         </div>
 
         <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-        DOWNLOAD PDF
+          DOWNLOAD PDF
         </button>
 
         <br />
+      </div>
+
+      <div className="flex justify-between  px-20 space- ">
+        <img className="w-20 rounded-full " src={imagenes.img4} alt="" />
+        <img className="w-20  rounded-full" src={imagenes.img4} alt="" />
+      </div>
+
+      <div className="flex justify-between px-20 space-">
+        <p className="w-20 overline  text-center"> Artist</p>
+        <p className="w-20 overline text-center "> L’Arta</p>
       </div>
     </section>
   );
