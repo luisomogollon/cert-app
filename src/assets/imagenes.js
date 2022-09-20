@@ -2,7 +2,7 @@ import louck1 from "./img/louck1.png";
 import louck2 from "./img/louck2.png";
 import louck4 from "./img/louck4.png";
 import louck5 from "./img/louck5.png";
-
+import louck6 from "./img/louck6.jpg"
 import code0 from "./img/code0.png"
 
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */

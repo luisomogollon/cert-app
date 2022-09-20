@@ -15,20 +15,6 @@ function App() {
             <span class="ml-3 text-xl">L’Art.</span>
           </span>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"></nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-            Button
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
         </div>
       </header>
 
@@ -56,42 +42,49 @@ function App() {
           </p>
         </div>
 
-        <h1 className="sm:text-4xl  text-2xl italic text-center font-semibold title-font mb-1 text-gray-900">
+        <h1 className="sm:text-5xl  underline decoration-solid text-center text-2xl font-medium italic title-font mb-4 text-gray-900">
+          Moon Ceremony
+        </h1>
+
+        <h1 className="sm:text-4xl pt-10 text-2xl italic text-center font-semibold title-font mb-1 text-gray-900">
           Lucia Sev Moon
         </h1>
 
-        <section className="px-2 py-32 bg-white md:px-0">
-          <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-            <div className="flex flex-wrap items-center sm:-mx-3">
-              <div className="w-full md:w-1/2 md:px-3">
-                <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-                  <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                    <span className="text-xs text-2xl text-indigo-500 tracking-widest font-medium title-font italic mb-1">
-                      Nov 3, 2021
-                    </span>
-
-                    <span className="block sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
-                      Metal Soul
-                    </span>
-                  </h1>
-
-                  <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                    Metal soul is a painting that represents the metal spirit of
-                    a warrior facing the volcanic surface, it is a surreal chaos
-                    with dark reddened palettes
-                  </p>
-
-                  <p className="italic text-gray-500 text-base">
-                    Dimensions 15cm X 15cm
-                  </p>
-
-                  <div className="relative flex flex-col sm:flex-row sm:space-x-4"></div>
-                </div>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-col">
+            <div class="lg:w-4/6 mx-auto">
+              <div class="">
+                <img alt="content" class="" src={imagenes.img5} />
               </div>
+              <div class="flex flex-col sm:flex-row mt-10">
+                <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                  <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                    <img
+                      alt="content"
+                      class="object-cover object-center rounded-full h-full w-full"
+                      src={imagenes.img1}
+                    />
+                  </div>
+                  <div class="flex flex-col items-center text-center justify-center">
+                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
+                      Lucia Sev Moon
+                    </h2>
+                    <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                    <p class="text-base">
+                      Lucia is an artist who likes to play with dark color
+                      palettes and create surreal atmospheres projected from her
+                      mind
+                    </p>
+                  </div>
+                </div>
 
-              <div className="w-full px-7 py-7 mt-5 md:w-1/2">
-                <div className="w-full h-auto overflow-hidden  ">
-                  <img src={imagenes.img5} alt="" />
+                <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                  <p class="leading-relaxed text-lg mb-4">
+                    Moon Ceremony represents a meeting that is held on the moon
+                    by entities from other planets, as well as the coldness of
+                    space combined with paletes of dark colors and Celtic
+                    rituals, this painting was created on Nov 3, 2023.
+                  </p>
                 </div>
               </div>
             </div>
@@ -99,7 +92,7 @@ function App() {
         </section>
 
         <div className="flex flex-wrap">
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <div className="xl:w-1/5 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
               Characteristic
             </h2>
@@ -110,7 +103,7 @@ function App() {
             </p>
           </div>
 
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <div className="xl:w-1/5 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
               Approved Work
             </h2>
@@ -121,7 +114,18 @@ function App() {
             </p>
           </div>
 
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <div className="xl:w-1/5 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+              Owner
+            </h2>
+
+            <p className="leading-relaxed text-base mb-4">
+              Whoever holds this certificate owns this work. <br />{" "}
+              Congratulations !
+            </p>
+          </div>
+
+          <div className="xl:w-1/5 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
               Surrealism
             </h2>
@@ -131,37 +135,30 @@ function App() {
             </p>
           </div>
 
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-20 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <div className="xl:w-1/5 lg:w-1/2  md:w-full px-10 py-6 border-l-2 border-gray-200 border-opacity-60">
             <img src={imagenes.img0} alt="" />
-            <span className="text-indigo-500 inline-flex items-center"></span>
+            <span className="text-indigo-500 inline-flex "></span>
           </div>
         </div>
-
-        <button className="flex  mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          DOWNLOAD PDF
-        </button>
 
         <br />
       </div>
 
-      <div className="flex justify-between px-20 space- ">
+      <div className="flex justify-center space-x-20 ">
         <img className="w-20  " src={imagenes.img2} alt="" />
         <img className="w-20  " src={imagenes.img4} alt="" />
       </div>
 
-      <div className="flex justify-between px-20 space-">
-        <p className="w-20 overline font-semibold  text-center">Of Artist</p>
-        <p className="w-20 overline font-semibold  text-center ">Of L’Arta</p>
+      <div className="flex justify-center px-20 space-x-20">
+        <p className="w-20 overline font-semibold  text-center"> Artist</p>
+        <p className="w-20 overline font-semibold  text-center "> L’Arta</p>
       </div>
 
       <br />
-      <span className="text-center text-xs italic ">
-        <b>IMPRESS: </b> $2b$10$b89RN847X8K5FDo2eyjs/. <br />
-        oLFcXvB Ca3Why22VICdZ5 WbZDsY fCY .$ 2<br />
-        b$10$b89RN 847X8K5FDo2eyjs/ .mTHg5
-        <br />
-        /xpbmb4NeWSjlJpLTgIKe4Rrg6
-      </span>
+      
+      <button className="flex  mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        DOWNLOAD 
+      </button>
     </section>
   );
 }
