@@ -35,10 +35,11 @@ function App() {
           <br />
 
           <p className="lg:w-2/3 flex mx-auto leading-relaxed italic text-base">
-            I subscribe to Locia Moon I certify that the work entitled: "METAL
-            SOUL" made in 2021 is an original work. this certificate was issued
-            on 06/21/2022 by Lucia Moon. This certificate attests that the
-            identified work is a first edition of the artist and its guarantee.
+            I subscribe to Locia Moon I certify that the work entitled: "MOON
+            CEREMONY" made in 2021 is an original work. this certificate was
+            issued on 06/21/2022 by Lucia Moon. This certificate attests that
+            the identified work is a first edition of the artist and its
+            guarantee.
           </p>
         </div>
 
@@ -80,10 +81,12 @@ function App() {
 
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
+                    <span className="italic font-semibold">Description:</span>{" "}
+                    <br />
                     Moon Ceremony represents a meeting that is held on the moon
                     by entities from other planets, as well as the coldness of
                     space combined with paletes of dark colors and Celtic
-                    rituals, this painting was created on Nov 3, 2023.
+                    rituals, this painting was created on Nov 3, 2021.
                   </p>
                 </div>
               </div>
@@ -144,6 +147,34 @@ function App() {
         <br />
       </div>
 
+      <section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
+        <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
+          <p class="text-xs font-bold text-left text-indigo-900 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
+          Do you need information?.
+          </p>
+
+          <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
+            <h3 class="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
+           Titulat Stamp
+            </h3>
+            <p class="mt-2 text-base italic text-gray-600 sm:text-lg md:text-normal">
+              $2b$10$b89RN847X8K5FDo2eyjs/.oLFcXvBCa3Why22VICdZ5WbZDsYfCY.$2b$10$b89RN
+              847X8K5FDo2eyjs/.mTHg5/xpbmb4NeWSjlJpLTgIKe4Rrg6.
+            </p>
+          </div>
+
+          <div class="w-full px-6 italic py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
+            <h3 class="text-lg font-bold text-indigo-500 sm:text-xl md:text-2xl">
+            Authentication Stamp
+            </h3>
+            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+            $2b$10$b89RN847X8K5FDo2eyjs/.oLFcXvBCa3Why22VICdZ5WbZDsYfCY.$2b$10$b89RN
+              847X8K5FDo2eyjs/.mTHg5/xpbmb4NeWSjlJpLTgIKe4Rrg6
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div className="flex justify-center space-x-20 ">
         <img className="w-20  " src={imagenes.img2} alt="" />
         <img className="w-20  " src={imagenes.img4} alt="" />
@@ -155,9 +186,9 @@ function App() {
       </div>
 
       <br />
-      
+
       <button className="flex  mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-        DOWNLOAD 
+        DOWNLOAD
       </button>
     </section>
   );
