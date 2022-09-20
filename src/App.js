@@ -3,7 +3,7 @@ import imagenes from "../src/assets/imagenes";
 
 function App() {
   return (
-    <section className="text-gray-600   border-4 border-indigo-400 flex flex-col body-font py-6 p-2  space-y-6">
+    <section className="text-gray-600   border-4 border-indigo-500 flex flex-col body-font py-6 p-2  space-y-6">
       <a href="#_" className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
         <span className="p-1 text-3xl  font-black leading-none text-black select-none">
           <span> L’Art</span>
