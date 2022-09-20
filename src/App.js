@@ -57,7 +57,7 @@ function App() {
                   <div className="relative flex flex-col sm:flex-row sm:space-x-4"></div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2">
+              <div className="w-full px-7 py-7 mt-5 md:w-1/2">
                 <div className="w-full h-auto overflow-hidden  ">
                   <img src={imagenes.img5} alt="" />
                 </div>
