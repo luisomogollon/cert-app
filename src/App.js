@@ -126,7 +126,7 @@ function App() {
 
             <p className="leading-relaxed text-base mb-4">
               Whoever holds this certificate owns this work. <br />{" "}
-              Congratulations !
+              Congratulations!
             </p>
           </div>
 
