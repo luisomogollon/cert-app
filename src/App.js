@@ -36,9 +36,10 @@ function App() {
 
           <p className="lg:w-2/3 flex mx-auto leading-relaxed italic text-base">
             I subscribe to Locia Moon I certify that the work entitled: "MOON
-            CEREMONY" made in 2021 is an original work. this certificate was issued
-            on 06/21/2022 by Lucia Moon. This certificate attests that the
-            identified work is a first edition of the artist and its guarantee.
+            CEREMONY" made in 2021 is an original work. this certificate was
+            issued on 06/21/2022 by Lucia Moon. This certificate attests that
+            the identified work is a first edition of the artist and its
+            guarantee.
           </p>
         </div>
 
@@ -54,23 +55,25 @@ function App() {
           <div className="container px-5 py-24 mx-auto flex flex-col">
             <div className="lg:w-4/6 mx-auto">
               <div className="">
-                <img alt="content" class="" src={imagenes.img5} />
+                <img alt="content" className="" src={imagenes.img5} />
               </div>
+
               <div className="flex flex-col sm:flex-row mt-10">
                 <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                   <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                     <img
                       alt="content"
-                      class="object-cover object-center rounded-full h-full w-full"
+                      className="object-cover object-center rounded-full h-full w-full"
                       src={imagenes.img1}
                     />
                   </div>
+
                   <div className="flex flex-col items-center text-center justify-center">
                     <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                       Lucia Sev Moon
                     </h2>
-                    <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                    <p class="text-base">
+                    <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                    <p className="text-base">
                       Lucia is an artist who likes to play with dark color
                       palettes and create surreal atmospheres projected from her
                       mind
@@ -80,8 +83,9 @@ function App() {
 
                 <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p className="leading-relaxed text-lg mb-4">
-                  <span className="italic font-semibold">Description:</span> <br/>
-                     Moon Ceremony represents a meeting that is held on the moon
+                    <span className="italic font-semibold">Description:</span>{" "}
+                    <br />
+                    Moon Ceremony represents a meeting that is held on the moon
                     by entities from other planets, as well as the coldness of
                     space combined with paletes of dark colors and Celtic
                     rituals, this painting was created on Nov 3, 2021.
@@ -144,9 +148,43 @@ function App() {
 
         <br />
       </div>
+      <div className=" sm:w-1/3 justify-center flex">
+        <div className=" rounded flex p-1 items-center">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+            className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+            viewBox="0 0 24 24"
+          >
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span className="title-font italic "> <b>Stamp Title </b>: #62fc2228990212acf95c883b8835</span>
+        </div>
+      </div>
+
+      <div className=" sm:w-1/3  justify-center flex">
+        <div className=" rounded flex p-1  items-center">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+            className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+            viewBox="0 0 24 24"
+          >
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span className="title-font italic "><b>Authentic Stamp</b>: #62fc2228990212acf95c883b</span>
+        </div>
+      </div>
       
-      
-      
+    
 
       <div className="flex justify-center space-x-20 ">
         <img className="w-20  " src={imagenes.img2} alt="" />
@@ -159,9 +197,9 @@ function App() {
       </div>
 
       <br />
-      
+
       <button className="flex  mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-        DOWNLOAD 
+        DOWNLOAD
       </button>
     </section>
   );
